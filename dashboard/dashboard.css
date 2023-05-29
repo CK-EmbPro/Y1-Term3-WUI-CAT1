@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.glob-container{
+    display: flex;
+}
+
+.left-div{
+    width: 18%;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 20px;
+    position: fixed;
+    
+}
+
+.left-div h1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.left-div h1 .cloud-icon{
+    background-color: rgb(120, 107, 220);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 10px;
+    
+}
+
+
+.left-div h1 .cloud-icon .fa-3{
+    rotate: -45deg;
+}
+
+
+.left-div .left-tabs-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.left-div .left-tabs-div button{
+    padding: 10px 0px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.left-div .left-tabs-div button i.delete{
+    color: black;
+}
+
+.left-div .left-tabs-div button:hover{
+    background-color : rgb(109, 109, 195);
+}
+
+.left-div>p a{
+    display: flex;
+    gap: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Center Part Styling */
+
+.center-div{
+    width: 60%;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+    margin-left: 20%;
+}
+
+
+
+
+.center-div form{
+    display: flex;
+    gap: 20px;
+}
+
+.center-div form .search-icon{
+    position: relative;
+    left: 9%;
+    top: 30%;
+}
+
+.center-div form input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    text-indent: 39px;
+    font-size: 20px;
+    border: 1px solid rgb(255, 243, 243);
+    outline: none;
+}
+
+.center-div form button{
+    padding: 10px 14px;
+    background-color:  rgb(120, 107, 220);
+    border-radius: 10px;
+}
+
+.center-div form button i{
+    transform: scale(1.8);
+    color: whitesmoke;
+}
+
+
+
+.center-div .center-div-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.center-div .center-div-categories>p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: rgb(74, 74, 74);
+
+}
+
+.center-div .center-div-categories .categories{
+    display: flex;
+    gap: 7%;
+    padding-left: 10px;
+}
+
+.center-div .center-div-categories .categories .category{
+    border-radius: 14px;
+    border: 1px solid grey;
+    width: 17%;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 0px 10px;
+    gap: 10px;
+}
+
+.center-div .center-div-categories .categories .category i{
+    background-color: black;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 5px;
+    color: white;
+    margin-left: 9px;
+    border-radius: 8px;
+}
+
+.center-div .center-div-categories .categories .category i.img-icon{
+    background-color: rgb(245, 237, 237);
+    color:rgb(109, 109, 195);
+}
+
+
+.center-div .center-div-categories .categories .category i.doc-icon{
+    background-color: rgb(207, 232, 203);
+    color:rgb(109, 109, 195);
+}
+
+
+.center-div .center-div-categories .categories .category i.audio-icon{
+    background-color: rgb(248, 241, 185);
+    color:rgb(109, 109, 195);
+}
+
+.center-div .center-div-categories .categories .category i.video-icon{
+    background-color: rgb(213, 248, 208);
+    color:rgb(109, 109, 195);
+}
+
+
+.center-div .center-div-categories .categories .category h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: rgb(74, 74, 74);
+}
+.center-div .center-div-categories .categories .category .blurred-p{
+    color: grey;
+}
+
+.center-div .recents-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.center-div .recents-div>p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+}
+
+
+.center-div .going-up{
+    display: flex;
+    gap: 10%;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 7px 5px rgb(226, 226, 226);
+    border-radius: 20px;
+    position: fixed;
+    margin-top: 76.7vh;
+    width: 53%;
+}
+
+.center-div .going-up a{
+    rotate: -90deg;
+    color:black;
+    padding: 10px;
+}
+
+.center-div .going-up p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.center-div .going-up p i{
+    margin-right: 10px;
+}       
+
+/* 
+.center-div .recents-div table tr{
+    margin-top: 90px;
+} */
+
+
+
+
+/* Right Div Styling */
+
+.right-div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color:#ffffff;
+    padding: 20px 10px;
+}
+
+.right-div .personInfo{
+    display: flex;
+    gap: 10px;
+    border-style: solid;
+    background-color: white;
+    border: 1px solid grey ;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+.right-div .personInfo img{
+    width: 30%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+
+.right-div .addNew-p{
+    width: 100%;
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+.right-div .storage{
+    background-color: #ECECEC;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.right-div .storage img{
+    width: 100%;
+}
+
+
+.right-div .storage>p{
+    font-family: 'Lato',sans-serif;
+}
+
+
+
+.right-div .storage .storage-bold-span{
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+
+
+.right-div .go-premium{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: #ECECEC;
+    gap: 20px;
+    border-radius: 10px;
+    height: auto;
+    
+}
+
+.right-div .go-premium h5, p{
+    font-family: 'Lato',sans-serif;
+}
+
+.right-div .go-premium .premium-icon{
+    background-color:  rgb(109, 109, 195);
+    display: flex;
+    justify-content: center;
+    margin-right: 160px;
+    padding: 20px 16px;
+    color: white;
+    border-radius: 7px;
+}
+
+.right-div .go-premium .premium-icon i{
+    transform: scale(1.9);
+}

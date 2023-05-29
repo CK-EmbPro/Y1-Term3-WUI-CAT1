@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.glob-container{
+    display: flex;
+}
+
+.glob-container .left-supermenu{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    background-color: black;
+    height: 100vh;
+    width: 20%;
+    color:white;
+    padding: 10px;
+}
+
+.glob-container .left-supermenu h1 {
+    margin-top: 30px;
+}
+
+.glob-container .left-supermenu h1 .h1-span{
+    color: rgb(255, 125, 12);
+}
+
+
+.glob-container .left-supermenu  .left-middle-supermenu{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.glob-container .left-supermenu  .left-middle-supermenu p{
+    padding: 15px;
+}
+
+.glob-container .left-supermenu  .left-middle-supermenu p:hover{
+    background-color: rgb(23, 22, 22);
+    border-left: 2px solid white;
+}
+
+.glob-container .left-supermenu .left-lower-supermenu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.glob-container .left-supermenu .left-lower-supermenu p{
+    padding: 15px;
+}
+
+.glob-container .left-supermenu  .left-lower-supermenu p:hover{
+    background-color: rgb(23, 22, 22);
+    border-left: 2px solid white;
+}
+
+/* Right supermenu */
+
+.glob-container .right-supermenu{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 80%;
+    background-color: rgb(240, 240, 240);
+}
+
+.glob-container .right-supermenu .right-overview{
+   
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    gap: 60%;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.glob-container .right-supermenu .right-overview>p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.glob-container .right-supermenu .right-overview .right-overview-desc{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.glob-container .right-supermenu .right-overview .right-overview-desc p:nth-child(3){
+    border-left: 2px solid grey;
+    padding-left: 10px;
+    line-height: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.glob-container .right-supermenu .right-overview .right-overview-desc img{
+    width: 40px;
+    height:40px;
+    margin-right: 5px;
+    border-radius: 50%;
+    /* padding: 0px 5px; */
+}
+
+.glob-container .right-supermenu .right-new-client{
+    margin: 0 auto;
+    padding: 10px 20px;
+
+}
+
+.glob-container .right-supermenu .right-new-client p{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.glob-container .right-supermenu .right-new-client input{
+    padding: 10px 10px 6px 10px;
+    width: 500px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 2px solid rgb(190, 183, 183);
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.glob-container .right-supermenu .right-new-client i{
+    position: relative;
+    right: 10%;
+    background-color: rgb(208, 202, 202);
+    border-radius: 30%;
+}
+
+ 
+.glob-container .right-supermenu .right-all-clients{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 60px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.glob-container .right-supermenu .right-all-clients .all-clients-upper{
+    display: flex;
+    width: 100%;
+    gap: 70%;
+    padding: 20px 20px 30px;
+}
+
+
+.glob-container .right-supermenu .right-all-clients .all-clients-upper>p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.glob-container .right-supermenu .right-all-clients .all-clients-upper .all-sort-filter{
+    display: flex;
+    gap: 50px;
+}
+
+.glob-container .right-supermenu .right-all-clients table{
+    padding: 10px;
+
+}
+
+.glob-container .right-supermenu .right-all-clients table thead th{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: rgb(125, 128, 125);
+}
+
+
+
+.glob-container .right-supermenu .right-all-clients table tbody tr:nth-child(1){
+    color: red;
+    border: 2px solid black;
+
+}

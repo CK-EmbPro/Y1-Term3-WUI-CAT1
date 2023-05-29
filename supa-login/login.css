@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* 
+font-family: 'Lato', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+
+.general-login-div{
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    gap: 20%;
+}
+
+.general-login-div .register-on-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    background-color: #F5F5F5;
+    padding:  10px 50px 5px;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.general-login-div .register-on-rate h2{
+    color: rgb(61, 61, 61);
+}
+
+.general-login-div .register-on-rate p{
+    color: grey;
+}
+
+
+.general-login-div .school-account-login{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.general-login-div .school-account-login .school-account-header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.general-login-div .school-account-login .school-account-header h2{
+    color: rgb(106, 104, 104);
+}
+
+.general-login-div .school-account-login .school-account-header p{
+    color: rgb(158, 156, 156);
+}
+
+.general-login-div .school-account-login form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.general-login-div .school-account-login form .texts-input{
+    padding: 10px;
+    background-color: #F5F5F5;
+    outline: none;
+    border: 1px solid  rgb(193, 190, 190);
+    border-radius: 6px;
+    color: black;
+}
+
+.general-login-div .school-account-login form .texts-input::placeholder{
+    color: black;
+}
+
+.general-login-div .school-account-login form .remember-or-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.general-login-div .school-account-login form .remember-or-forgot label{
+    display: flex;
+    gap: 10px;
+}
+
+.general-login-div .school-account-login form .remember-or-forgot label input{
+    border-style: solid;
+    background-color: red;
+}
+
+.general-login-div .school-account-login form .remember-or-forgot p a{
+    text-decoration: none;
+}
+
+.general-login-div .school-account-login form .remember-or-forgot p a:visited{
+    color: rgb(95, 78, 191);
+    font-family: 'Lato', sans-serif;
+}
+
+.general-login-div .school-account-login form button{
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.general-login-div .school-account-login>p{
+    line-height: 25px;
+}
+
+
+/* Footer part */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color:  #F5F5F5;
+    font-family: 'Lato', sans-serif;
+}
+
+footer .footer-divs-container{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+
+footer .footer-divs-container .footer-div h3{
+    margin-bottom: 15px;
+}
+
+footer .footer-divs-container .footer-div p{
+    line-height: 30px;
+    color: grey;
+}
+
+footer .footer-divs-container .social-media p a{
+    color: grey !important;
+    text-decoration: none;
+}
+
+footer hr{
+    margin: 0% 7%;
+}
+
+footer .footer-copyright{
+    display: flex;
+    justify-content: space-around;
+    gap: 30%;
+    margin: 0px 0px 60px;
+}
+
+footer .footer-copyright p a{
+    text-decoration: none;
+    color: blue;
+}
+

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Dashboard container -->
+    <div class="glob-container">
+
+        <!-- Dashboard Left part -->
+        <div class="left-div">
+            <h1><span class="cloud-icon"><i class="fa-sharp fa-solid fa-3"></i></span>Cloud3</h1> 
+            <div class="left-tabs-div">
+                <button><i class="fa-solid fa-image"></i>Dashboard</button>
+                <button><i class="fa-solid fa-image"></i>Shared</button>
+                <button><i class="fa-solid fa-image"></i>Stared</button>
+                <button><i class="fa-solid fa-image"></i>Deleted</button>
+            </div>
+
+            <p><a href="#"><i class="fa-solid fa-angles-left"></i>Collapse</a></p>
+
+
+        </div>
+
+        <!-- Dashboard Center part -->
+        <div class="center-div">
+            <form action="#" method="post">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="search" placeholder="Search">
+                <button type="submit"><i class="fa-brands fa-pagelines"></i></button>
+            </form>
+
+            <div class="center-div-categories">
+                <p>Category</p>
+
+                <div class="categories">
+                <div class="img-category category">
+                    <i class="fa-solid fa-image img-icon"></i>
+                    <h5>Image</h5>
+                    <p class="blurred-p">457 files</p>
+                </div>
+
+                <div class="doc-category category">
+                    <i class="fa-solid fa-image doc-icon"></i>
+                    <h5>Documents</h5>
+                    <p class="blurred-p">212 files</p>
+                </div>
+
+                <div class="audtio-category category">
+                    <i class="fa-solid fa-image audio-icon"></i>
+                    <h5>Audio</h5>
+                    <p class="blurred-p">98 files</p>
+                </div>
+
+                <div class="video-category category">
+                    <i class="fa-solid fa-image video-icon"></i>
+                    <h5>Videos</h5>
+                    <p class="blurred-p">560 files</p>
+                </div>
+
+            </div>
+            </div>
+
+            <div class="recents-div">
+                <p>Recent</p>
+
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><i class="fa-regular fa-file"></i></td>
+                            <td><p>My report.docx</p></td>
+                            <td> <p>My report.docx</p></td>
+                            <td><p class="blurred-p">DOCX File</p></td>
+                            <td><p class="blurred-p">7 MB</p></td>
+                            <td> <i class="fa-solid fa-ellipsis"></i></td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td><i class="fa-solid fa-music"></i></td>
+                            <td><p>Backsound.mp3</p></td>
+                            <td> <p>My report.docx</p></td>
+                            <td> <p class="blurred-p">MP3 File</p></td>
+                            <td><p class="blurred-p">7 MB</p></td>
+                            <td> <i class="fa-solid fa-ellipsis"></i></td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td> <i class="fa-solid fa-image"></i></td>
+                            <td><p>Artboard-1.png</p></td>
+                            <td> <p>My report.docx</p></td>
+                            <td> <p class="blurred-p">PNG File</p></td>
+                            <td><p class="blurred-p">7 MB</p></td>
+                            <td> <i class="fa-solid fa-ellipsis"></i></td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td><i class="fa-solid fa-video"></i></td>
+                            <td><p>Final Present.mp4</p></td>
+                            <td> <p>My report.docx</p></td>
+                            <td> <p class="blurred-p">MP4 File</p></td>
+                            <td><p class="blurred-p">7 MB</p></td>
+                            <td> <i class="fa-solid fa-ellipsis"></i></td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td><i class="fa-solid fa-folder"></i></td>
+                            <td> <p>Work</p></td>
+                            <td> <p>My report.docx</p></td>
+                            <td><p class="blurred-p">Folder</p></td>
+                            <td><p class="blurred-p">7 MB</p></td>
+                            <td> <i class="fa-solid fa-ellipsis"></i></td>
+                            
+                        </tr>
+
+
+                    </tbody>
+                </table>
+               
+
+
+            </div>
+
+            <div class="going-up">
+                <p><i class="fa-solid fa-cloud-arrow-up"></i> Upload file</p>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+            </div>
+
+        </div>
+
+<!-- Dashboard Right part  -->
+
+        <div class="right-div">
+            <div class="personInfo">
+                <img src="./images/robert-fox.png" alt="No-image">
+                <div class="names-email">
+                    <p>Robert Fox</p>
+                    <p>robert@gmail.com</p>
+                </div>
+            </div>
+
+            <p class="addNew-p">
+                Add New 
+                <i class="fa-solid fa-plus"></i>
+            </p>
+
+
+            <div class="storage">
+                <img src="./images/Frame 1.png" alt="No-image">
+                <p><span class="storage-bold-span">769</span>GB <span class="storage-bold-span">/1</span>TB</p>
+                <p class="blurred-p">Available storage</p>
+            </div>
+
+            <div class="go-premium">
+                <span class="premium-icon">
+                    <i class="fa-solid fa-folder-plus"></i>
+                </span>
+
+                <h5>Go Premium</h5>
+
+                <p>Upgrade Space now and get a 15% discount</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

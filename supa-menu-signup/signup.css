@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange !important;
+
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+
+h1 .h1-span{
+    color: white;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 8px ;
+    width: 40%;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.form-container p{
+    display:flex;
+    gap: 40px;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.form-container p a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 15px;
+}
+
+.form-container form input{
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+.form-container form h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.form-container form button{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+
+
+.form-container form .supa-signup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+.form-container form .supa-signup label{
+    font-weight: bold;
+    color: rgb(86, 84, 84);
+}
